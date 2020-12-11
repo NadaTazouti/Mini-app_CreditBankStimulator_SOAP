@@ -1,0 +1,92 @@
+
+form {
+
+ padding-top:20px;
+  margin-right:400px;
+  margin-left:400px;
+   width:400px;
+   margin-top:200px
+    
+ }
+fieldset {
+ padding:0 100px 50px 60px;
+ margin-bottom:10px;
+ border:3px solid #d473d4;
+  width:500px;
+ }
+
+label {
+ margin-top:10px;
+ display:block;
+ }
+label.inline {
+ display:inline;
+ margin-right:100px;
+  
+ }
+input {
+ background-color:#FFF3F3;
+  width:200px;
+ }
+body {
+  padding-top: 60px;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    margin-left: -200px; /* - moitié de la largeur */
+    position: absolute;
+    left: 50%;
+}
+nav .navbar-brand {
+  font-size: 30px;
+}
+nav .navbar-toggle {
+  margin: 13px 15px 13px 0;
+}
+nav a {
+  font-size: 18px;
+  padding-bottom: 20px !important;
+  padding-top: 20px !important;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+nav.navbar.shrink {
+  min-height: 35px;
+}
+nav.navbar.shrink .navbar-brand {
+  font-size: 25px;
+}
+nav.navbar.shrink a {
+  font-size: 15px;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+}
+nav.navbar.shrink .navbar-toggle {
+  margin: 8px 15px 8px 0;
+  padding: 4px 5px;
+}
+ .login200-form-logo {
+  font-size: 30px; 
+  color: #333333;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 0 auto;
+}
